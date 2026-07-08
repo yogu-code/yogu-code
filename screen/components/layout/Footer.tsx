@@ -11,7 +11,7 @@ export function Footer() {
           yogeshrane019@gmail.com
         </a>
         <span className="hidden text-neutral-300 sm:inline">|</span>
-        <a href="tel:+9187792 69045" className="hover:text-neutral-900">
+        <a href="tel:+918779269045" className="hover:text-neutral-900">
           +91 87792 69045
         </a>
       </div>
