@@ -6,11 +6,9 @@ export function WhatElse() {
       </h2>
 
       <p className="mt-8 font-serif text-2xl italic leading-relaxed text-neutral-800">
-        When I&apos;m not shipping code, I&apos;m usually a few ranked
-        matches deep into Mobile Legends, tinkering with my Arch Linux setup
-        for no good reason, or reading the Gita and thinking about
-        non-attachment to outcomes &mdash; which, funnily enough, is also the
-        best mindset for debugging.
+        My life outside VS Code? Mobile Legends ranked matches, anime marathons,
+        and drawing until I lose track of time. If I&apos;m not debugging code,
+        I&apos;m probably sketching something you&apos;ll find below.
       </p>
     </section>
   );
