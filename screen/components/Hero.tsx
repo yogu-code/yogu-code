@@ -22,11 +22,11 @@ export function Hero({ stats }: HeroProps) {
                 </h1>
 
                 <p className="mt-5 max-w-lg text-base leading-7 text-neutral-600 sm:text-lg sm:leading-8">
-                    Backend-focused Software Engineer with experience building
-                    distributed systems, real-time applications, and fintech
-                    integrations using Node.js, TypeScript, PostgreSQL, Redis, and
-                    Docker. Passionate about designing scalable backend infrastructure
-                    that is reliable, performant, and easy to maintain.
+                    Full-stack Software Engineer building end-to-end products — from
+                    React/Next.js interfaces to backend systems powered by Node.js,
+                    TypeScript, PostgreSQL, Redis, and Docker. Experienced with
+                    real-time applications and fintech integrations, and comfortable
+                    owning a feature from UI to infrastructure.
                 </p>
 
                 <div className="mt-8 grid grid-cols-2 gap-5 border-t border-neutral-200 pt-5 sm:grid-cols-4">

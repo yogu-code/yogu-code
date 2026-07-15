@@ -25,10 +25,10 @@ import {
 import { Experience } from "./components/Whereiveworked";
 
 export const stats = [
-  { label: 'ROLE', value: 'SDE-1' },
+  { label: 'ROLE', value: 'Full Stack SDE-1' },
   { label: 'LOCATION', value: 'Mumbai, India' },
-  { label: 'EXPERIENCE', value: ' 1 Year' },
-  { label: 'FOCUS', value: 'Backend Systems' },
+  { label: 'EXPERIENCE', value: '1 Year' },
+  { label: 'STATUS', value: 'Open to Work' }
 ]
 
 export const skills = [
@@ -115,6 +115,8 @@ export const images = [
   "/gallery/drawing-3.png",
   "/gallery/drawing-4.png",
   "/gallery/drawing-5.png",
+  "/gallery/drawing-6.png",
+  "/gallery/drawing-7.png",
 ];
 
 export const experiences: Experience[] = [
@@ -125,17 +127,14 @@ export const experiences: Experience[] = [
     location: "Mumbai, India",
     description: (
       <>
-        Engineered{" "}
+        Built{" "}
         <strong className="font-semibold text-neutral-900">
           QbarTrade
         </strong>
-        , a unified trading platform integrating{" "}
-        <strong className="font-semibold text-neutral-900">
-          Zerodha Kite, Groww, and AngelOne
-        </strong>
-        . Built OAuth authentication, broker API integrations, automated order
-        execution, PostgreSQL-backed services, and a backtesting module for
-        validating trading strategies.
+        , a trading platform that connects multiple broker accounts into
+        one app. Handled OAuth login, broker API integrations, automated
+        order execution, the database design, and a backtesting tool for
+        testing trading strategies.
       </>
     ),
   },
@@ -146,20 +145,24 @@ export const experiences: Experience[] = [
     location: "Mumbai, India",
     description: (
       <>
-        Developed an{" "}
+        Built an{" "}
         <strong className="font-semibold text-neutral-900">
-          NLP-powered chatbot
+          AI-powered chatbot
         </strong>{" "}
-        using Gemini AI, implemented a{" "}
+        and a{" "}
         <strong className="font-semibold text-neutral-900">
-          Socket.IO real-time chat system
+          real-time chat system
         </strong>
-        , and built core backend features for{" "}
+        . Also worked on{" "}
         <strong className="font-semibold text-neutral-900">
           NEET720
         </strong>
-        , including question generation, progress tracking, and student
-        dashboards.
+        , an exam platform — built the backend for question generation and
+        progress tracking, and{" "}
+        <strong className="font-semibold text-neutral-900">
+          the entire frontend
+        </strong>
+        , including student dashboards and the test-taking interface.
       </>
     ),
   },
